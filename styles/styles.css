@@ -3,14 +3,23 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-img {
+#topimage {
     border-radius: 50%;
 
   }
 
+  #HTMLimage {
+    border-radius: 10px;
+  }
+
+  #nocssimage {
+      width: 50%;
+      border-radius: 10px;
+  }
+
 .txtcenter {
     position: absolute;
-    top: 47%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
