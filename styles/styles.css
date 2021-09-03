@@ -3,6 +3,36 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media (min-width: 320px) { 
+  p {
+    font-size: 5px
+  }
+}
+
+@media (min-width: 576px) { 
+  p {
+    font-size: 20px
+  }
+}
+
+@media (min-width: 768px) { 
+  p {
+    font-size: 10px
+  }
+}
+
+@media (min-width: 992px) { 
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) { 
+  p {
+    font-size: 55px
+  }
+}
+
 #topimage {
     border-radius: 50%;
 
